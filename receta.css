@@ -1,0 +1,72 @@
+body{
+    background-image: url('../img/cupcake.gif');
+}
+
+@font-face{
+    font-family: LittleDays;
+    src: url(./fonts/LittleDays.ttf);
+}
+
+@font-face{
+    font-family: PrintClearly;
+    src: url(./fonts/PrintClearly.ttf);
+}
+
+@font-face{
+    font-family: BoldPrintClearly;
+    src: url(./fonts/PrintClearly_bold.ttf);
+}
+
+
+#contenedor{
+    max-width: 40em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    background-color: beige;
+    border-left: 10px solid pink;
+    border-right: 7px solid rgb(166, 233, 66);
+}
+
+img{
+    border: 10px solid rgb(79, 186, 212);
+    margin: 1em;
+}
+
+#Ingredientes{
+    font-family: LittleDays;
+    padding: 10px;
+    background-color: rgb(233, 161, 173);
+    border: 0.5px solid grey;
+    margin-top: 1em;
+    margin-left: 1em;
+    margin-bottom: 1em;
+    margin-right: 1em;
+    list-style-image: url(./img/ok.png);
+}
+
+#Procedimiento{
+padding: 1em;
+background-color: rgb(194, 240, 129);
+border: 0.5px solid grey;
+margin: 1em;
+}
+
+footer{
+    margin: 1em;
+    background-color: azure;
+}
+
+h2{
+    font-family: BoldPrintClearly;
+    margin-left: 1em;
+}
+
+h1{
+    margin: auto;
+    font-size: 5em;
+    font-family: BoldPrintClearly;
+    text-align: center;
+}
+
